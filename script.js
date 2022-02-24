@@ -8,5 +8,6 @@ for (let i=0; i<16; i++) {
         divStyle.borderStyle = 'solid';
         divStyle.width = '50px';
         divStyle.height = '50px';
+        div.addEventListener('mouseover', () => div.classList.add('hovered'));
     }
 }

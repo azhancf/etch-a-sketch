@@ -17,3 +17,7 @@ body {
     flex-wrap: wrap;
     width: 960px;
 }
+
+.hovered {
+    background-color: black;
+}
